@@ -44,7 +44,7 @@ const checkWinner = () => {
         const boxE = $boxes.eq(e).text() || $boxes.eq(e).find('img').attr('alt');
 
         if (boxA && boxA === boxB && boxB === boxC && boxC === boxD && boxD === boxE) {
-            $alertWinner.text(`layer ${currentPlayer === player1 ? '1' : '2'} wins!`).show().fadeOut(5000);
+            $alertWinner.text(`Slayer ${currentPlayer === player1 ? '1' : '2'} wins!`).show().fadeOut(5000);
             winner = true;
             return;
         }
