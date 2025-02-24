@@ -1,0 +1,81 @@
+body {
+    background-image: url('images/twinkletwinsbg.jpg');
+    background-size: 60%;
+    background-repeat: repeat;
+    font-family: 'Comic Sans MS', cursive;
+    color: #333;
+}
+
+#grid {
+    max-width: 500px;
+}
+
+.box {
+    min-height: 105px;
+    color: blueviolet;
+}
+
+#alert--container {
+    min-height: 80px;
+}
+
+.alert-info {
+    backdrop-filter: blur(3px);
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#players {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.cute-grid {
+    background-color: rebeccapurple;
+    border: 4px solid pink;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cute-grid .box {
+    background-color: pink;
+    border: 2px solid rebeccapurple;
+    color: rebeccapurple;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cute-grid .box:hover {
+    background-color: #ff69b4;
+    cursor: pointer;
+}
+
+.cute-button {
+    background-color: pink;
+    border: 2px solid rebeccapurple;
+    color: rebeccapurple;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cute-button:hover {
+    background-color: rebeccapurple;
+    color: pink;
+    cursor: pointer;
+}
+
+.border-rebeccapurple {
+    border-color: rebeccapurple !important;
+}
